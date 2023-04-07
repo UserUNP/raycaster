@@ -1,0 +1,13 @@
+{
+	"configurations": [
+		{
+			"type": "cppdbg",
+			"request": "launch",
+			"name": "run raycaster",
+			"program": "${workspaceFolder}/target/debug/raycaster",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"sourceFileMap": {}
+		}
+	]
+}

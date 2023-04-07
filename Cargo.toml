@@ -1,0 +1,13 @@
+[package]
+name = "raycaster"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+strip = true
+lto = true
+panic = "abort"
+opt-level = "z"
+
+[dependencies]
+sdl2 = "0.35.2"
